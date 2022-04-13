@@ -1,0 +1,10 @@
+import cosas.*
+test "test altura castillo" {
+
+	assert.equals(20,castillo.altura())
+
+}
+
+test "test altura tipa" {
+	assert.equals(8,tipa.altura())
+}

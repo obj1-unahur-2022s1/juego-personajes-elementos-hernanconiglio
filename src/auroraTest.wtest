@@ -1,0 +1,6 @@
+import cosas.*
+test "Aurora esta viva" {
+
+	assert.that(aurora.estaViva())
+
+}
