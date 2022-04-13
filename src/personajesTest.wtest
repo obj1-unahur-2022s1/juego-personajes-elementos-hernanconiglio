@@ -8,3 +8,12 @@ test "floki ataca al castillo con la ballesta y 10 flechas" {
 	assert.equals(150-ballesta.nivelDePotencia(),castillo.nivelDeDefensa())
 
 }
+
+test "personaje activo mario " {
+	luisa.jugadorActivo(mario)
+	luisa.jugadorActivo().encontrar(aurora)
+	luisa.jugadorActivo().encontrar(castillo)
+	
+	assert.equals(45,luisa.jugadorActivo().valorRecolectado())
+}
+
