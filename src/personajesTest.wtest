@@ -17,3 +17,10 @@ test "personaje activo mario " {
 	assert.equals(45,luisa.jugadorActivo().valorRecolectado())
 }
 
+test "personaje activo floki " {
+	luisa.jugadorActivo(floki)
+	luisa.jugadorActivo().encontrar(aurora)
+	luisa.jugadorActivo().encontrar(castillo)
+	
+	assert.equals(true,luisa.jugadorActivo().arma().estaCargada())
+}

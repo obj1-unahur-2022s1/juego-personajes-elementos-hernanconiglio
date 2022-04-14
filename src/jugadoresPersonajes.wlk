@@ -20,6 +20,7 @@ object floki {
 	method cambiarArma(unArma) {
 		arma = unArma
 	}
+	method arma() = arma
 }
 
 
